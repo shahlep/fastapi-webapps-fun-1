@@ -9,4 +9,5 @@ def index():
     return f'Web app fun experiment'
 
 
-uvicorn.run(app)
+if __name__ == '__main__':
+    uvicorn.run(app)
