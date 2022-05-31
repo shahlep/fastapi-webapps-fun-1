@@ -10,6 +10,7 @@
 <div>
     <a href="/">Home</a>
     <a href="/about">About</a>
+    <a href="/account">Account</a>
 </div>
 <div class="main-content">
     <div metal:define-slot="content" tal:omit-tag="True">
