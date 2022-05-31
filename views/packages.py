@@ -3,6 +3,6 @@ import fastapi
 router = fastapi.APIRouter()
 
 
-@router.get('/')
+@router.get("/")
 def index():
     pass
