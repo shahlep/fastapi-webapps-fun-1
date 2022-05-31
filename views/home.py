@@ -8,12 +8,12 @@ fastapi_chameleon.global_init("templates")
 
 
 @router.get("/")
-@template(template_file="home/index.pt")
+@template()
 def index():
     return {"user_name": "Shah Rahman"}
 
 
 @router.get("/about")
-@template(template_file="home/about.pt")
+@template()
 def about():
     return {}
