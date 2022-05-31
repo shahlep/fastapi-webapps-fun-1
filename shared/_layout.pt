@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>PyPI</title>
+    <link rel="stylesheet" href="static/site.css">
 </head>
 <body>
 <h1>My PyPI</h1>
