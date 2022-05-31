@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Web App</title>
-</head>
-<body>
-    <h1>Web app fun experiment</h1>
-    <div>User : ${user_name}</div>
-    <ul>
-        <li>fastapi</li>
-        <li>uvicorn</li>
-        <li>chameleon</li>
-    </ul>
-</body>
-</html>
+<div metal:use-macro="load:../shared/_layout.pt">
+    <div metal:fill-slot="content" omit-tag="True">
+        <h1>Web app fun experiment</h1>
+        <div>User : ${user_name}</div>
+        <ul>
+            <li>fastapi</li>
+            <li>uvicorn</li>
+            <li>chameleon</li>
+        </ul>
+    </div>
+</div>
