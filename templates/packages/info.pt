@@ -1,9 +1,8 @@
 <div metal:use-macro="load:../shared/_layout.pt">
     <div metal:fill-slot="content" omit-tag="True">
         <h1>Web app fun experiment</h1>
-        <p>Packages Page</p>
-        <div>
-            <a href="/packages/info">Info</a>
-        </div>
+        <div>About PyPI</div>
+        <div>Info Page</div>
+
     </div>
 </div>

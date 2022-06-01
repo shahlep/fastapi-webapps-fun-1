@@ -11,3 +11,9 @@ fastapi_chameleon.global_init("templates")
 @template()
 def index():
     return {}
+
+
+@router.get("/packages/info")
+@template()
+def info():
+    return {}
