@@ -7,7 +7,7 @@ router = fastapi.APIRouter()
 fastapi_chameleon.global_init("templates")
 
 
-@router.get("/index")
+@router.get("/packages")
 @template()
 def index():
     return {}
