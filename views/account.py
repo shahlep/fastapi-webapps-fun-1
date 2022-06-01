@@ -14,15 +14,18 @@ def index():
 
 
 @router.get("/account/login")
+@template()
 def login():
-    pass
+    return {}
 
 
 @router.get("/account/logout")
+@template()
 def logout():
-    pass
+    return {}
 
 
 @router.get("/account/registration")
+@template()
 def register():
-    pass
+    return {}

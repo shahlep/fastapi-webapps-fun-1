@@ -2,10 +2,7 @@
     <div metal:fill-slot="content" omit-tag="True">
         <h1>Web app fun experiment</h1>
         <div>About PyPI</div>
-        <div>
-            <a href="/account/login">Login</a>
-            <a href="/account/logout">Logout</a>
-            <a href="/account/registration">Register</a>
-        </div>
+        <div>Logout Page</div>
+
     </div>
 </div>
